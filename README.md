@@ -1,19 +1,19 @@
 # Kraken-Flow (Jonathan)
 Reads D0010 files and inserts the relevant items into the database
 
-# in directory with venv
+## In directory with venv
 ```bash
 cd Kraken_backend
 ```
-## build db
+## Build db
 ```bash
 python manage.py migrate
 ```
-## create a superuser to use to access admin
+## Create a superuser to use to access admin
 ```bash
 python manage.py createsuperuser
 ```
-## start server
+## Start server
 ```bash
 python manage.py runserver
 ```
