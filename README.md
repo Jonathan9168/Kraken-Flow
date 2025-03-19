@@ -25,11 +25,11 @@ python manage.py load_d0010 "<path_to_file/path_to_directory>"
 
 In this case, there are test D0010 flow files in KrakenAppp\management\commands
 ```bash
-python manage.py load_d0010 "KrakenAppp\management\commands\\"
+python manage.py load_d0010 "KrakenApp\management\commands\\"
 ```
 or 
 ```bash
-python manage.py load_d0010 "KrakenAppp\management\commands\DTC5259515123502080915D0010.uff" 
+python manage.py load_d0010 "KrakenApp\management\commands\DTC5259515123502080915D0010.uff" 
 ```
 # Run unit tests
 ```bash
